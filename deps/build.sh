@@ -2,7 +2,7 @@
 
 set -e
 
-OPENWRT_BRANCH=openwrt-23.05
+OPENWRT_BRANCH=main
 
 mkdir -p /vendor/
 cd /vendor/
