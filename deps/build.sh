@@ -18,3 +18,4 @@ cp /deps/.config /vendor/openwrt/.config
 #make menuconfig
 
 make -j$(nproc) defconfig download clean world
+cp bin/targets/mediatek/filogic/openwrt-snapshot-*-sdcard.img.gz /build/
