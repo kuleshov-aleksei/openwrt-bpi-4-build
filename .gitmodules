@@ -1,0 +1,3 @@
+[submodule "vendor/openwrt"]
+	path = vendor/openwrt
+	url = git@github.com:openwrt/openwrt.git
