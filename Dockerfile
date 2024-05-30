@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 RUN apt update && apt install -y build-essential clang flex bison g++ gawk \
 gcc-multilib g++-multilib gettext git libncurses5-dev libssl-dev \
 python3-distutils rsync unzip zlib1g-dev file wget subversion git-core python3-setuptools \
-swig
+swig libpcre3 libpcre3-dev curl
 
 ENV FORCE_UNSAFE_CONFIGURE=1
 
